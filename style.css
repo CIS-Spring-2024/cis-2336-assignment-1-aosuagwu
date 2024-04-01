@@ -27,10 +27,6 @@ nav{
     justify-content: space-between;
 }
 
-nav:hover{
-    color: whitesmoke;
-}
-
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -41,12 +37,26 @@ nav ul li a{
     color: brown;
     font-weight: 400;
 }
+
+nav ul li a:hover{
+    color: gray;
+}
+
+.active{
+    color: grey;
+}
+
 .meet-me{
     display: inline-block;
     text-decoration: none;
     padding: 14px 40px;
     color: black;
 }
+
+.meet-me:hover{
+    color: gray;
+}
+
 .content{
     margin-top: 10%;
     max-width: 600px;
@@ -80,4 +90,36 @@ nav ul li a{
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+.meet-me {
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: black;
+}
+.meet-me:hover {
+    color: gray;
+}
+.owner {
+    margin-top: 20px;
+    text-align: left;
+}
+.owner h1, .owner p {
+    margin-bottom: 10px;
+}
+}
+.anim2 {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;   
+}
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.me-img {
+    width: 300px;
 }
