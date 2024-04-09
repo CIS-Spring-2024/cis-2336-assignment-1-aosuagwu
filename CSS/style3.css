@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    padding-left: 50px;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif; 
+}
+
+nav {
+    background-color: burlywood;
+    padding: 10px; 
+}
+
+nav a {
+    color: rgba(246, 238, 212, 0.859); 
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover{
+    color: grey
+}
+
+header{
+    background-color: beige;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
