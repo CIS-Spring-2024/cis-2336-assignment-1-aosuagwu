@@ -7,6 +7,7 @@
 
 body {
     padding-left: 50px;
+    padding-right: 50px;
     background-color: #f3f3f3;
     font-family: Arial, sans-serif; 
 }
@@ -17,7 +18,7 @@ nav {
 }
 
 nav a {
-    color: rgba(246, 238, 212, 0.859); 
+    color: white; 
     text-decoration: none;
     padding: 10px 20px;
     transition: color 0.3s;
@@ -28,7 +29,7 @@ nav a:hover{
 }
 
 menu-cafe.header{
-    background-color: beige;
+    background-color: #fff;
     padding: 20px;
     text-align: center;
 }
