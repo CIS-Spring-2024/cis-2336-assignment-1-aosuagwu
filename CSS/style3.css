@@ -27,18 +27,18 @@ nav a:hover{
     color: grey
 }
 
-header{
+menu-cafe.header{
     background-color: beige;
     padding: 20px;
     text-align: center;
 }
 
-main{
+menu-cafe.main{
     padding: 20px;
 }
-h1{
+menu-cafe.h1{
     text-align: center;
 }
-p{
+menu-cafe.p{
     text-align: center;
 }
