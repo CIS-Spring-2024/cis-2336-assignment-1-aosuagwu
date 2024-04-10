@@ -6,8 +6,8 @@
 }
 
 body {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: #f3f3f3;
     font-family: Arial, sans-serif; 
 }
@@ -42,4 +42,20 @@ menu-cafe.h1{
 }
 menu-cafe.p{
     text-align: center;
+}
+.menu-item{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item img{
+    max-width: 150px;
+    max-height: 150px;
+}
+.menu-item-description{
+    margin-left: 10px;
 }
