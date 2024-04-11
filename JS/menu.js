@@ -2,7 +2,6 @@ const menuItems = [
     { name: 'Pancakes', image: 'IMAGES/pancakes.webp', description: 'Fluffy Buttermilk Pancakes', category: 'breakfast' },
     { name: 'Breakfast Tacos', image: 'IMAGES/breakfast tacos.jpg', description: 'Savory Breakfast Tacos', category: 'breakfast' },
     { name: 'Oatmeal', image: 'IMAGES/oatmeal.jpg', description: 'Sweet Oats', category: 'breakfast' },
-    { name: 'Omelette', image: 'IMAGES/omelette.jpg', description: 'Healthy Omelette', category: 'breakfast' },
     { name: 'Sandwich', image: 'IMAGES/sandwich.jpg', description: 'Grilled Chicken Sandwich', category: 'lunch' },
     { name: 'Garden Salad', image: 'IMAGES/salad.jpg', description: 'Fresh Garden Salad', category: 'lunch' },
     { name: 'Pizza', image: 'IMAGES/pizza.jpg', description: 'Pepperoni Pizza', category: 'dinner' },
