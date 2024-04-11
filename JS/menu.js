@@ -10,3 +10,24 @@ const menuItems = [
     { name: 'Fried Rice', image: '/IMAGES/fried_rice.jpg', description: 'Tasty Fried Rice' },
     { name: 'Steak', image: '/IMAGES/steak.jpg', description: 'Tender Steak and Fresh Brocolli' }
 ]
+
+const menuContainer = document.getElementById('menuContainer');
+menuItems.forEach(item => {
+    const menuItem = document.createElement('div');
+    menuItem.classList.add('menu-item');
+
+    const itemName = document.createElement('span');
+    itemName.textContent = item.name;
+    menuItem.appendChild(itemName);
+
+    const itemDescription = document.createElement('span');
+    itemDescription.textContent = item.description;
+    itemDescription.classList.add('menu-item-description');
+    menuItem.appendChild(itemDescription);
+
+    const itemImage = document.createElement('img');
+    itemImage.src = item.image;
+    menuItem.appendChild(itemImage);
+
+    menuContainer.appendChild(menuItem);
+});
