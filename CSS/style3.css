@@ -103,3 +103,7 @@ button{
 button:hover {
     background-color: rgb(182, 165, 143);
 }
+
+.quantity.invalid{
+    border: 2px silver;
+}
