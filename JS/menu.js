@@ -57,5 +57,7 @@ function submitOrder() {
     if (isValid){
         console.log(order);
         alert('Order has been successfully submitted!')
+    } else{
+        alert('Order has not yet been submitted.')
     }
 }
