@@ -53,10 +53,12 @@ function submitOrder() {
 
     items.forEach(item => {
         const itemName = item.querySelector('.menu-item-name').textContent;
-        const quantity = parseInt(item.querySelector('.quantity').value);
+        const quantityInput = item.querySelector('.quantity');
+        const quantity = parseInt(quantityInput.value);
 
-        if (isNaN(quantity) || quantity <= 0) {
-            alert(`Please enter a valid quantity for ${itemName}`);
+        if (isNaN(quantity) || quantity <= 0 || quantity > 10) {
+            alert(`Please enter a valid quantity between 1 and 10 for ${itemName}`);
+            quantityInput.classList.add('invalid');
             isValid = false;
             return;
         }
@@ -68,7 +70,7 @@ function submitOrder() {
         console.log("Order:", order);
         alert('Order has been successfully submitted!');
     } else {
-        console.log("Order submission failed");
         alert('Order has not yet been submitted.');
     }
 }
+
